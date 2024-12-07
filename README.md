@@ -1,5 +1,5 @@
 
-# 🗝️Fantasy Sports API🗝️
+# 🗝️Fantasy Football API🗝️
 
 A FastAPI-based backend API that provides endpoints to retrieve data on fantasy sports operators, game types, slate names, and player statistics. 
 The data is loaded from a JSON file, and several filters can be applied to get specific subsets of data.
@@ -17,7 +17,8 @@ The data is loaded from a JSON file, and several filters can be applied to get s
   - GET /api/slateNames
   - GET /api/players
 - Development
-  
+- Test
+
 ## Setup
 1.Clone this repository:
 
@@ -96,3 +97,7 @@ The data is loaded from a JSON file, and several filters can be applied to get s
                 "projectedOwnership": 0.08
             }
         ]
+
+## Test
+You can test all APIs using Swagger by visiting the following URL: http://127.0.0.1:8000/docs. 
+This will provide an interactive interface where you can easily explore and test the available endpoints, sending requests and viewing responses in a user-friendly manner.
