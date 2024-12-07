@@ -1,5 +1,5 @@
 
-# 🗝️Fantasy Sports API🗝️
+# 🗝️Fantasy Football API🗝️
 
 A FastAPI-based backend API that provides endpoints to retrieve data on fantasy sports operators, game types, slate names, and player statistics. 
 The data is loaded from a JSON file, and several filters can be applied to get specific subsets of data.
