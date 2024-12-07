@@ -110,7 +110,7 @@ def get_players(
     # Map player data to the Player model
     response_data = [
         Player(
-            playerId=player.get("playerId", None),
+            playerId=player.get("slatePlayerId", None),
             operatorPlayerName=player.get("operatorPlayerName", ""),
             position=player.get("operatorPosition", ""),
             team=player.get("team", ""),
